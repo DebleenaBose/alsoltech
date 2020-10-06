@@ -18,6 +18,7 @@ import { Card2Component } from './portfolio/card2/card2.component';
 import { Card3Component } from './portfolio/card3/card3.component';
 import { HomeComponent } from './home/home.component';
 import { AboutUsComponent } from './about-us/about-us.component';
+import { ServicesComponent } from './services/services.component';
 
 export class CustomHammerConfig extends HammerGestureConfig {
   overrides = {
@@ -38,7 +39,8 @@ export class CustomHammerConfig extends HammerGestureConfig {
     Card2Component,
     Card3Component,
     HomeComponent,
-    AboutUsComponent
+    AboutUsComponent,
+    ServicesComponent
   ],
   imports: [
     BrowserModule,
