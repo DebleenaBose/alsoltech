@@ -1,0 +1,70 @@
+#particles-js {
+    top: 20;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+  }
+  #parallax-world-of-ugg {
+    z-index: 1;
+  }
+  
+  #parallax-world-of-ugg .parallax-one {
+    overflow: hidden;
+    position: absolute;
+    width: 100%;
+    height: 250px;
+    background-image: url('../../../assets/images/assignment.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+  
+  }
+
+.container{
+    padding-top: 100px;
+    z-index: 1;
+    position: relative;
+    /* padding: 60px 0 200px 0; */
+    background-color: #fff;
+    top: 150px;
+    border-radius: 5px;
+}
+.container2{
+    padding: 100px;
+}
+
+h2{
+    padding: 10px;
+}
+
+button{
+    font-family: 'Courier New', Courier, monospace;
+    color: #123a57;
+    background-color: #ffffff;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 16px;
+}
+
+#b1{
+    border-color: #6c67f5;
+
+}
+#b2{
+    border-color: #5cbd4f;
+}
+#b3{
+    border-color: #ffcd03;
+}

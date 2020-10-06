@@ -24,9 +24,26 @@
               "src/assets"
             ],
             "styles": [
+              "node_modules/font-awesome/css/font-awesome.css",
+              "node_modules/aos/dist/aos.css",
+              "node_modules/slick-carousel/slick/slick.scss",
+              "node_modules/slick-carousel/slick/slick-theme.scss",
               "src/styles.css"
             ],
-            "scripts": []
+            "stylePreprocessorOptions": {
+              "includePaths": [
+                "sass"
+              ]
+            },
+            "scripts": [
+              "node_modules/particles.js/particles.js",
+              "node_modules/aos/dist/aos.js",
+              "node_modules/jquery/dist/jquery.js",
+              "node_modules/slick-carousel/slick/slick.min.js",
+              "node_modules/masonry-layout/dist/masonry.pkgd.min.js",
+              "node_modules/isotope-layout/dist/isotope.pkgd.min.js",
+              "node_modules/imagesloaded/imagesloaded.pkgd.js"
+            ]
           },
           "configurations": {
             "production": {
